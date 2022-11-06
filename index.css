@@ -1,0 +1,40 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.header--center {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 0.6rem;
+  align-items: center;
+}
+
+.header--center::before,
+.header--center::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ebeaed;
+}
+
+a:hover {
+  color: #29b475;
+}
+
+.support-text {
+  color: #29b475;
+}
+
+.terms-text {
+  color: #84818a;
+}
+
+button {
+  background-color: #29b475 !important;
+}
+
+i {
+  margin-left: -30px;
+  width: 5px;
+  cursor: pointer;
+}
